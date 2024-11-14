@@ -1,0 +1,12 @@
+roua, Picături fine de apă care se formează pe plante sau pe alte obiecte în timpul nopții,fenomene ale naturii,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\roua.jpg
+cires,Pom fructifer cu frunze ovale alungite cu flori albe cultivat pentru fructele sale,pom,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\cires.jpg
+floare,Parte a plantei care cuprinde organele de reproducere sexuată și care are de obicei o corolă frumoasă și variat colorată,natura,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\floare.jpg
+val,unda formata la suprafata apei,natura,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\noImage.png
+fulger,Descărcare electrică puternică însoțită de lumină și zgomot violent,fenomene ale naturii,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\fulger.jpg
+ploaie, Precipitații atmosferice sub formă de picături de apă căzute din nori,fenomene ale naturii,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\ploaie.jpg
+plop, Arbore cu frunze mari rotunjite zgomotoase la adierea vântului,pom,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\plop.jpg
+rochie, Articol de îmbrăcăminte pentru femei,vestimentație,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\rochie.jpg
+port romanesc, Ce aparține sau se referă la cultura tradițiile sau caracteristicile României,vestimentație,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\romanesc.jpg
+catel,animal de companie care latra,animal,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\noImage.png
+mormant,unde se ingroapa oamenii decedati,funerarii,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\grave-1534385975a8y.jpg
+abc,abc,abc,C:\Users\sirbu\OneDrive\Desktop\sem2\MAP\tema1\tema1\Images\cires.jpg

@@ -1,0 +1,17 @@
+﻿<Window x:Class="tema1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1"
+        mc:Ignorable="d"
+        Title="Mod Adiministrator" Height="450" Width="800">
+    <Grid Background="DarkOliveGreen">
+        <TextBlock FontFamily="Brush Script MT" FontSize="50" Text="Mod administrativ" TextAlignment="Center" Foreground="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0"/>
+        <Button Content="adaugare cuvant" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="232" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,110,0,0" Click="AddWordButton_Click"/>
+        <Button Content="modificare cuvant" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="232" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ModifyWordButton_Click"/>
+        <Button Content="stergere cuvant" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="232" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,277,0,0" Click="DeleteWordButton_Click"/>
+        <!--<Button Content="deconectare" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="232" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,377,0,0"/>-->
+
+    </Grid>
+</Window>

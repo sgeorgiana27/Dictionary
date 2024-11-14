@@ -1,0 +1,26 @@
+﻿<Window x:Class="tema1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1"
+        mc:Ignorable="d"
+        Title="Adaugare cuvant" Height="450" Width="800">
+    <Grid Background="DarkOliveGreen">
+        <TextBlock FontFamily="Brush Script MT" FontSize="50" Text="Adaugare cuvant" TextAlignment="Center" Foreground="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0"/>
+        <TextBlock FontFamily="Brush Script MT" FontSize="40" Text="cuvant" Foreground="Beige" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,101,0,0" Width="114" />
+        <TextBox x:Name="wordTextBox" Height="39" HorizontalAlignment="Left" VerticalAlignment="Top" Width="206" Margin="194,106,0,0"/>
+        <TextBlock FontFamily="Brush Script MT" FontSize="40" Text="descriere" Foreground="Beige" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="137,173,0,0" Width="114" />
+        <TextBox x:Name="descriptionTextBox" Height="39" HorizontalAlignment="Left" VerticalAlignment="Top" Width="390" Margin="286,178,0,0"/>
+        <TextBlock FontFamily="Brush Script MT" FontSize="40" Text="categorie" Foreground="Beige" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="424,101,0,0" Width="114" />
+        <TextBox x:Name="newCategoryTextBox"  TextChanged="NewCategoryTextBox_TextChanged" GotFocus="NewCategoryTextBox_GotFocus" Height="39" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Margin="556,106,0,0"/>
+        <ListBox x:Name="existingCategoriesListBox" Visibility="Collapsed" SelectionChanged="ExistingCategoriesListBox_SelectionChanged" Margin="556,145,84,157"/>
+
+        <!--<ComboBox x:Name="categoryComboBox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200" Height="40" Margin="558,110,0,0" />-->
+        <TextBlock FontFamily="Brush Script MT" FontSize="40" Text="imagine" Foreground="Beige" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="194,252,0,0" Width="114" />
+        <Button Content="selectati imaginea" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="232" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="365,254,0,0" Click="SelectImage_Click"/>
+
+        <Button Content="adauga" FontFamily="Brush Script MT" FontSize="35" Foreground="DarkOliveGreen" Background="Beige" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,343,0,0" Click="AddWordButton_click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="tema1.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1"
+        mc:Ignorable="d"
+        Title="Divertisment" Height="450" Width="800">
+    <Grid Background="DarkOliveGreen">
+        <TextBlock FontFamily="Brush Script MT" FontSize="50" Text="Joc de Divertisment" TextAlignment="Center" Foreground="Beige" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0"/>
+        <TextBlock x:Name="WordDescription" FontSize="24" TextAlignment="Center" Foreground="White" Margin="70,107,57,217" TextWrapping="Wrap"/>
+        <Image x:Name="WordImage" Stretch="Uniform" Margin="328,76,315,185"/>
+        <TextBlock FontFamily="Brush Script MT" FontSize="40" Text="Ghiciti cuvantul:" Foreground="Beige" Margin="101,270,400,96"/>
+        <TextBox x:Name="AnswerTextBox" FontSize="24" Width="250" Margin="426,273,124,99"/>
+        <Button x:Name="PreviousButton" Content="inapoi" FontFamily="Brush Script MT" FontSize="30" Foreground="DarkOliveGreen" Background="Beige" Margin="243,358,431,12" Click="PreviousButton_Click"/>
+        <Button x:Name="NextButton" Content="urmatorul" FontFamily="Brush Script MT" FontSize="30" Foreground="DarkOliveGreen" Background="Beige" Margin="468,358,191,12" Click="NextButton_Click"/>
+        <Button x:Name="FinishButton" Content="finalizare" FontFamily="Brush Script MT" FontSize="30" Foreground="DarkOliveGreen" Background="Beige" Margin="468,358,191,12" Click="FinishButton_Click"  Visibility="Collapsed"/>
+    </Grid>
+</Window>
